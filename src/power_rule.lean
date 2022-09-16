@@ -20,7 +20,6 @@ import algebra.group_power.basic
 import data.nat.choose.basic
 import data.nat.choose.sum
 import algebra.big_operators.basic
-import tactic.linarith
 import analysis.calculus.fderiv
 import analysis.special_functions.pow
 import analysis.calculus.cont_diff
