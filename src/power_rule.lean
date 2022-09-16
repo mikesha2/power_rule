@@ -1065,7 +1065,7 @@ namespace power_rule
     },
   end
 
-  lemma deriv_of_power : ∀ (n : ℕ), ∀ (x : ℝ), has_deriv_at (x_to_n n) (x_to_n' n x) x :=
+  theorem deriv_of_power : ∀ (n : ℕ), ∀ (x : ℝ), has_deriv_at (x_to_n n) (x_to_n' n x) x :=
   begin
     intros n x,
     rw has_deriv_at,
